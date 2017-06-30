@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_name"
+        android:textColor="@color/colorWhite"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Radio Maryja"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:text="http://radio...."
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
